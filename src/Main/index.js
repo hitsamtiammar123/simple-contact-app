@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import { MainTable, MainForm } from '@contact-simple-components'
 
 export default function Main(){
+
   return (
     <>
       <div className="main-header bg-light d-flex align-items-center justify-content-center">
