@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Render Correctly 1`] = `
+Array [
+  <div
+    className="main-header bg-light d-flex align-items-center justify-content-center"
+  >
+    <h4
+      className="title"
+    >
+      Simple Contact App
+    </h4>
+  </div>,
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-6 mt-4"
+      >
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+          >
+            First Name
+          </label>
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Please Input First Name"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+          >
+            Last Name
+          </label>
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Please Input Last Name"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+          >
+            Age
+          </label>
+          <input
+            className="form-control"
+            min="0"
+            onChange={[Function]}
+            placeholder="Please Input Age"
+            type="number"
+            value={0}
+          />
+        </div>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+          >
+            Image URL (Please input the right format)
+          </label>
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Please Input Image URL"
+            value="http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550"
+          />
+        </div>
+        <button
+          className="btn btn-success"
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+      </div>
+      <div
+        className="row mt-5"
+      >
+        <table
+          className="table table-hover"
+        >
+          <thead>
+            <tr>
+              <th>
+                #
+              </th>
+              <th>
+                First Name
+              </th>
+              <th>
+                Last Name
+              </th>
+              <th>
+                Age
+              </th>
+              <th>
+                Photo
+              </th>
+              <th>
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th
+                scope="row"
+              >
+                1
+              </th>
+              <td>
+                Bilbo
+              </td>
+              <td>
+                Baggins
+              </td>
+              <td>
+                12
+              </td>
+              <td>
+                <img
+                  alt=""
+                  className="photo"
+                  src="http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550"
+                />
+              </td>
+              <td>
+                <button
+                  className="btn btn-primary me-3"
+                  onClick={[Function]}
+                >
+                  Edit
+                </button>
+                <button
+                  className="btn btn-danger"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th
+                scope="row"
+              >
+                2
+              </th>
+              <td>
+                Nama
+              </td>
+              <td>
+                Hebat
+              </td>
+              <td>
+                111
+              </td>
+              <td>
+                <img
+                  alt=""
+                  className="photo"
+                  src="http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550"
+                />
+              </td>
+              <td>
+                <button
+                  className="btn btn-primary me-3"
+                  onClick={[Function]}
+                >
+                  Edit
+                </button>
+                <button
+                  className="btn btn-danger"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th
+                scope="row"
+              >
+                3
+              </th>
+              <td>
+                Saya
+              </td>
+              <td>
+                Lala
+              </td>
+              <td>
+                60
+              </td>
+              <td>
+                <img
+                  alt=""
+                  className="photo"
+                  src="http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550"
+                />
+              </td>
+              <td>
+                <button
+                  className="btn btn-primary me-3"
+                  onClick={[Function]}
+                >
+                  Edit
+                </button>
+                <button
+                  className="btn btn-danger"
+                  onClick={[Function]}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap';
-import { useDispatch, useSelector } from 'react-redux';
-import { SET_DATA } from '@contact-simple/store/constants';
 
 export default function EditModal({
   isShow,
@@ -11,10 +9,6 @@ export default function EditModal({
   onSubmit,
   onToogle
 }){
-  const dispatch = useDispatch();
-  const listData = useSelector(state => state.listData);
-
-
 
   return (
     <Modal isOpen={isShow}>

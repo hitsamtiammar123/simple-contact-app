@@ -40,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-test-renderer": "^17.0.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "@contact-simple/(.*)$": "<rootDir>/src/$1",
+      "@contact-simple-main$": "<rootDir>/src/Main",
+      "@contact-simple-components$": "<rootDir>/src/components/index.js"
+    }
   }
 }
